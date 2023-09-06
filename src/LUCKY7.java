@@ -37,7 +37,7 @@ public class LUCKY7 {
 			else if(nro1 == 7 && nro2 == 7 || nro1 == 7 && nro3 == 7 || nro2 == 7 && nro3 == 7) {
 				System.out.println("Voitit 3 rahaa!");
 				rahat = rahat+2; 
-				//nro1 == 7 && nro2 == 7 && nro3 == 7)
+			
 			}
 			else if (nro1 == 7 || nro2 == 7 || nro3 == 7) {
 				System.out.println("Voitit 1 rahan!");
@@ -56,6 +56,9 @@ public class LUCKY7 {
 			vastaus = in.nextLine();
 			
 		}  while (rahat == 0 || !vastaus.equals("N"));
-	}
+		if(vastaus.equals("N"));
+		{System.out.println("Kiitos kun pelasin!");
+		}
 
-}
+			}
+		}
